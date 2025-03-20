@@ -8,12 +8,14 @@
 body {
 	font-family: 'SF Pro Text', 'Helvetica Neue', 'Helvetica', 'Arial', sans-serif;
 }
+
 .container {
 	display: flex;
 	flex-direction: column;
 	margin: auto;
 	max-width: 1024px;
 }
+
 .navigation-wrapper {
 	width: 100%;
 	padding-top: 24px;
@@ -29,10 +31,6 @@ body {
 	border-bottom: 1px solid #ccc;
 	justify-content: space-around;
 	position: relative;
-	/* background: linear-gradient(180deg, transparent 99%, #333 0%) no-repeat;
-	background-position-y: calc(100% + 0px);
-	background-position-x: 120px;
-	background-size: 50px; */
 }
 
 .navigation-active-underline {

@@ -1,0 +1,65 @@
+@font-face {
+	font-family: 'SF Pro Text';
+	font-style: normal;
+	font-weight: 300;
+	src: url('/assets/fonts/sf-pro-text_light.woff2') format('woff2');
+}
+
+body {
+	font-family: 'SF Pro Text', 'Helvetica Neue', 'Helvetica', 'Arial', sans-serif;
+}
+.container {
+	display: flex;
+	flex-direction: column;
+	margin: auto;
+	max-width: 1024px;
+}
+.navigation-wrapper {
+	width: 100%;
+	padding-top: 24px;
+	padding-bottom: 24px;
+}
+
+.navigation {
+	display: flex;
+	flex-grow: 1;
+	padding: 0;
+	margin: 0;
+	list-style-type: none;
+	border-bottom: 1px solid #ccc;
+	justify-content: space-around;
+	position: relative;
+	/* background: linear-gradient(180deg, transparent 99%, #333 0%) no-repeat;
+	background-position-y: calc(100% + 0px);
+	background-position-x: 120px;
+	background-size: 50px; */
+}
+
+.navigation-active-underline {
+	height: 0px;
+	width: 0px;
+	border-top: 1px solid #333;
+	position: absolute;
+	left: 50%;
+	margin-top: -1px;
+}
+
+.navigation-item {
+	display: flex;
+	color: #aaa;
+	cursor: pointer;
+	padding-bottom: 0.6rem;
+}
+
+.navigation-item.active {
+	color: #333;
+}
+
+.navigation-item:hover {
+	color: #51a0d5;
+}
+
+.styled-clock {
+	margin: 30px auto 0;
+	font-size: 42px;
+}
